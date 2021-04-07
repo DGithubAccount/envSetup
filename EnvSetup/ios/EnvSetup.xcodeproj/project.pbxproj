@@ -114,7 +114,6 @@
 				CAC57F5D6B84CFA7239B54FA /* Pods-EnvSetup-EnvSetupTests.debug.xcconfig */,
 				9C5666954A56AB3A9CB29C29 /* Pods-EnvSetup-EnvSetupTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -427,7 +426,7 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		00E356F61AD99517003FC87E /* Debug */ = {
+		00E356F61AD99517003FC87E /* DebugDev */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CAC57F5D6B84CFA7239B54FA /* Pods-EnvSetup-EnvSetupTests.debug.xcconfig */;
 			buildSettings = {
@@ -452,7 +451,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EnvSetup.app/EnvSetup";
 			};
-			name = Debug;
+			name = DebugDev;
 		};
 		00E356F71AD99517003FC87E /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -478,7 +477,7 @@
 			};
 			name = Release;
 		};
-		13B07F941A680F5B00A75B9A /* Debug */ = {
+		13B07F941A680F5B00A75B9A /* DebugDev */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D3ED20ED33A486325D559437 /* Pods-EnvSetup.debug.xcconfig */;
 			buildSettings = {
@@ -502,7 +501,7 @@
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
-			name = Debug;
+			name = DebugDev;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -528,7 +527,7 @@
 			};
 			name = Release;
 		};
-		83CBBA201A601CBA00E9B192 /* Debug */ = {
+		83CBBA201A601CBA00E9B192 /* DebugDev */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -591,7 +590,7 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
-			name = Debug;
+			name = DebugDev;
 		};
 		83CBBA211A601CBA00E9B192 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -657,7 +656,7 @@
 		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EnvSetupTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				00E356F61AD99517003FC87E /* Debug */,
+				00E356F61AD99517003FC87E /* DebugDev */,
 				00E356F71AD99517003FC87E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -666,7 +665,7 @@
 		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EnvSetup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				13B07F941A680F5B00A75B9A /* Debug */,
+				13B07F941A680F5B00A75B9A /* DebugDev */,
 				13B07F951A680F5B00A75B9A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
@@ -675,7 +674,7 @@
 		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EnvSetup" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				83CBBA201A601CBA00E9B192 /* Debug */,
+				83CBBA201A601CBA00E9B192 /* DebugDev */,
 				83CBBA211A601CBA00E9B192 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
